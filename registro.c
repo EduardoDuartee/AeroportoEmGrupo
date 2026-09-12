@@ -1,192 +1,85 @@
 #include <stdio.h>
 #include <stdbool.h>
 #include <stdlib.h>
+#include <string.h>
 
-char Destino;
+char Destino[30];
+char horario[30];
+char empresa[30];
 int escolhaDestino;
-int EmpresadeAviao;
+int escolhaHorario;
+int escolhaEmpresa;
+
 void registro()
 {
-    printf("================================");
+   printf("================================");
     printf("\nAeroporto De Uma Cidade Qualquer");
     printf("\n================================");
 
-    printf("\nQual é o Seu  Destino?");
+    printf("\nQual e o Seu Destino?");
     printf("\n1 - Bahia");
     printf("\n2 - Minas-Gerais");
     printf("\n3 - Mato-Grosso");
     printf("\n4 - Santa-Catarina");
-    printf("\n5 - Acre");
+    printf("\n5 - Acre\nOpcao: ");
     scanf("%d", &escolhaDestino);
 
-    switch (escolhaDestino)
-    {
-    case 1:
-        
-        printf("\n===============================");
-        printf("\n             Bahia             ");
-        printf("\n===============================");
-        printf("\nSelecione uma Empresa:");
 
-        printf("\n1 - Cocrodile-Poeta");
-        printf("\n1 - Pomba-Nuclear");
-
-        scanf("%d", &EmpresadeAviao);
-
-        switch (EmpresadeAviao)
-        {
-            case 1:
-                printf("\n=================================");
-                printf("\n       Cocrodile-Poeta           ");
-                printf("\n          1 - 14:00h"             );
-                printf("\n===============================\n");
-
-               
-
-            break;
-
-            case 2:
-                printf("\n=================================");
-                printf("\n         Cocrodile-Poeta         ");
-                printf("\n=================================");
-                printf("\n        2 - 16:00h"               );
-            break;
-        
-            default:
-            break;
-        }
-
-       
-        
-    break;
-
-    case 2:
-        printf("\n===============================");
-        printf("\n         Minas-Gerais          ");
-        printf("\n===============================");
-         printf("\nSelecione uma Empresa:");
-
-        printf("\n1 - Cocrodile-Poeta");
-        printf("\n1 - Pomba-Nuclear");
-
-        scanf("%d", &EmpresadeAviao);
-
-        switch (EmpresadeAviao)
-        {
-            case 1:
-                printf("\n===============================");
-                printf("\n       Cocrodile-Poeta         ");
-                printf("\n===============================");
-
-            break;
-
-            case 2:
-                printf("\n===============================");
-                printf("\n        Pomba-Nuclear          ");
-                printf("\n===============================");
-            break;
-        
-            default:
-            break;
-        }
-    break;
-
-    case 3:
-        printf("\n===============================");
-        printf("\n         Mato-Grosso           ");
-        printf("\n===============================");
-         printf("\nSelecione uma Empresa:");
-
-        printf("\n1 - Cocrodile-Poeta");
-        printf("\n1 - Pomba-Nuclear");
-
-        scanf("%d", &EmpresadeAviao);
-
-        switch (EmpresadeAviao)
-        {
-            case 1:
-                printf("\n===============================");
-                printf("\n       Cocrodile-Poeta         ");
-                printf("\n===============================");
-
-            break;
-
-            case 2:
-                printf("\n===============================");
-                printf("\n        Pomba-Nuclear          ");
-                printf("\n===============================");
-            break;
-        
-            default:
-            break;
-        }
-    break;
-
-    case 4:
-        printf("\n===============================");
-        printf("\n         Santa-Catarina        ");
-        printf("\n===============================");
-         printf("\nSelecione uma Empresa:");
-
-        printf("\n1 - Cocrodile-Poeta");
-        printf("\n1 - Pomba-Nuclear");
-
-        scanf("%d", &EmpresadeAviao);
-
-        switch (EmpresadeAviao)
-        {
-            case 1:
-                printf("\n===============================");
-                printf("\n       Cocrodile-Poeta         ");
-                printf("\n===============================");
-
-            break;
-
-            case 2:
-                printf("\n===============================");
-                printf("\n        Pomba-Nuclear          ");
-                printf("\n===============================");
-            break;
-        
-            default:
-            break;
-        }
-    break;
-
-    case 5:
-        printf("\n===============================");
-        printf("\n             Acre              ");
-        printf("\n===============================");
-         printf("\nSelecione uma Empresa:");
-
-        printf("\n1 - Cocrodile-Poeta");
-        printf("\n1 - Pomba-Nuclear");
-
-        scanf("%d", &EmpresadeAviao);
-
-        switch (EmpresadeAviao)
-        {
-            case 1:
-                printf("\n===============================");
-                printf("\n       Cocrodile-Poeta         ");
-                printf("\n===============================");
-
-            break;
-
-            case 2:
-                printf("\n===============================");
-                printf("\n        Pomba-Nuclear          ");
-                printf("\n===============================");
-            break;
-        
-            default:
-            break;
-        }
-    break;
-    
-    default:
-    break;
+    if (escolhaDestino == 1) {
+        strcpy(Destino, "Bahia");
+    } 
+    else if (escolhaDestino == 2) {
+        strcpy(Destino, "Minas-Gerais");
+    } 
+    else if (escolhaDestino == 3) {
+        strcpy(Destino, "Mato-Grosso");
+    } 
+    else if (escolhaDestino == 4) {
+        strcpy(Destino, "Santa-Catarina");
+    } 
+    else if (escolhaDestino == 5) {
+        strcpy(Destino, "Acre");
+    } 
+    else {
+        printf("\nOpcao Invalida!\n");
+        return;
     }
 
+
+    printf("\n=====================");
+    printf("%s", Destino);
+    printf("\n=====================");
+
+    printf("\nCocrodile-Poeta");
+    printf("\nPomba-Noclear");
+    scanf("%d", &escolhaEmpresa);
+    if (escolhaEmpresa == 1)
+    {
+        strcpy(empresa, "Crocodile-Poeta");
+    }
+    else if (escolhaEmpresa ==2)
+    {
+         strcpy(empresa, "Pomba-Nuclear");
+    }
+
+    printf("\nVoos Disponiveis:");
+    printf("\n1 -  09:00h");
+    printf("\n2 - 21:00h");
+    scanf("%d", &escolhaHorario);
+    if (escolhaHorario == 1)
+    {
+        strcpy(horario, "09:00");
+    }
+    else if(escolhaHorario == 2)
+    {
+        strcpy(horario, "21:00");
+    }
+
+
+    printf("\n=====================");
+    printf("\n%s", Destino);
+    printf("\n%s", empresa);
+    printf("\n%s", horario);
+    printf("\n=====================");
 
 }
