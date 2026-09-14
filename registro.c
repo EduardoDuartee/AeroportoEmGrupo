@@ -11,6 +11,7 @@ int escolhaEmpresa;
 
 float pagamento;
 
+
 void registro()
 {
    printf("================================");
@@ -56,8 +57,8 @@ void registro()
     printf("%s", Destino);
     printf("\n=====================");
 
-    printf("\nCocrodile-Poeta");
-    printf("\nPomba-Noclear");
+    printf("\n1 - Cocrodile-Poeta");
+    printf("\n2 - Pomba-Noclear");
     scanf("%d", &escolhaEmpresa);
 
 // empresa crocodilo-poeta================================
