@@ -2,7 +2,7 @@
 #include <stdbool.h>
 #include <stdlib.h>
 #include <string.h>
-#incluye <time.h>
+#include <time.h>
 
 char Destino[30];
 char horario[30];
@@ -18,7 +18,7 @@ float pagamento;
 
 void registro()
 {
-srand(time(NULL));
+
    printf("================================");
     printf("\nAeroporto De Uma Cidade Qualquer");
     printf("\n================================");
@@ -120,7 +120,7 @@ srand(time(NULL));
    
 
 
-    int codigoVoo = rand()%900 + 100;
+    
     printf("\n=========================");
     printf("\nCodigo de Voo: %d", codigoVoo);
     printf("\nDestino: %s", Destino);
