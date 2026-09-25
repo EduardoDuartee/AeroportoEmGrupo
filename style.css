@@ -1,5 +1,7 @@
 body{
     background-color: black;
+    overflow-x: hidden;
+    width: 100%;
 }
 
 .Nav-bar{
@@ -37,7 +39,7 @@ body{
     justify-content: space-between; 
     align-items: flex-start; 
     padding: 40px;
-    height: 600px;
+    height: 400px;
     background-color: rgb(25, 37, 41);
 }
 
@@ -63,11 +65,11 @@ body{
 
 .apresentacao p 
 {
-    margin-top: 100px;
+    margin-top: 80px;
     color: white;
     font-weight: bold;
     font-family: Arial, Helvetica, sans-serif;
-    font-weight: 800;
+    font-weight: 900;
 }
 
 .apresentacao button
@@ -88,4 +90,59 @@ body{
     width: 1000px;
     height: auto;
     order: 2; 
+}
+
+.cads
+{
+    flex: 1;
+    margin-top: 100px;
+    background: linear-gradient(90deg, #0e1f20 0%, #282b3a 51%);
+    width: 100%;
+    height: 500px;
+    padding: 100px 100px  ;
+    border-radius: 7px;
+    display: flex;
+    gap: 200px;
+    justify-content: center;
+    align-items: center;
+}
+
+.cadA,
+.cadB,
+.cadC
+{
+
+    background-color: #161827;
+    width:400px;
+    height: 350px;
+    text-align: center;
+    color: white;
+    border-radius: 7px;
+    padding: 20px;
+}
+
+
+.cadA button, 
+.cadB button, 
+.cadC button
+{
+    margin-top: 80px;
+    background-color: #00aeef;
+    border: none;
+    color: #ffffff;
+    border: none;
+    padding: 12px 28px;
+    font-size: 16px;
+    font-weight: bold;
+    border-radius: 4px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.cadA p,
+.cadB p,
+.cadC p
+{
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight:700;
 }
