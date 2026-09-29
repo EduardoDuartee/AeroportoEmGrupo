@@ -2,17 +2,23 @@
 #include <stdbool.h>
 #include <stdlib.h>
 #include <string.h>
+#include <time.h>
+
 char Destino[30];
 char horario[30];
 char empresa[30];
+ 
 int escolhaDestino;
 int escolhaHorario;
 int escolhaEmpresa;
 
 float pagamento;
 
+
+
 void registro()
 {
+
    printf("================================");
     printf("\nAeroporto De Uma Cidade Qualquer");
     printf("\n================================");
@@ -56,8 +62,8 @@ void registro()
     printf("%s", Destino);
     printf("\n=====================");
 
-    printf("\nCocrodile-Poeta");
-    printf("\nPomba-Noclear");
+    printf("\n1 - Cocrodile-Poeta");
+    printf("\n2 - Pomba-Noclear");
     scanf("%d", &escolhaEmpresa);
 
 // empresa crocodilo-poeta================================
@@ -114,8 +120,9 @@ void registro()
    
 
 
-
+    
     printf("\n=========================");
+    printf("\nCodigo de Voo: %d", codigoVoo);
     printf("\nDestino: %s", Destino);
     printf("\nEmpresa: %s", empresa);
     printf("\nEmbarque: %sh", horario);
