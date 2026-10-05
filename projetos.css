@@ -9,19 +9,15 @@ html {
 
 body {
     font-family: Arial, Helvetica, sans-serif;
-    background-color: #3b3b3b;
     color: aliceblue;
+    background-color: black;
+    overflow-x: hidden;
+    width: 100%;
 }
 
 header {
     background-color: #1f1f1f;
     color: aliceblue;
-}
-
-.logo {
-    color: aliceblue;
-    font-size: 30px;
-    padding: 10px;
 }
 
 nav {
@@ -38,9 +34,16 @@ nav {
     gap: 30px;
 }
 
+nav a {
+    color: white;
+    text-decoration: none; 
+    font-weight: bold;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
 a {
     text-decoration: none;
-    color: aliceblue;
+    color: white;   
     padding: 5px;
     border-radius: 5px;
 }
