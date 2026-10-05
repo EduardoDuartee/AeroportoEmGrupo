@@ -70,6 +70,7 @@ a:hover {
 .campos {
     display: flex;
     gap: 1em;
+    flex-direction: column;
 }
 
 .inputs {
