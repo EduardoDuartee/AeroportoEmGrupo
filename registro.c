@@ -122,7 +122,7 @@ void registro()
 
     
     printf("\n=========================");
-    printf("\nCodigo de Voo: %d", codigoVoo);
+    // printf("\nCodigo de Voo: %d", codigoVoo);
     printf("\nDestino: %s", Destino);
     printf("\nEmpresa: %s", empresa);
     printf("\nEmbarque: %sh", horario);
