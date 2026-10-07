@@ -3,6 +3,7 @@ body{
     overflow-x: hidden;
     width: 100%;
 }
+/* nav bar*/ 
 
 .Nav-bar{
     background-color: rgb(25, 37, 41);
@@ -32,6 +33,7 @@ body{
     height: 200px;
     margin-left: -80px;
 }
+/* final do nav*/
 
 .apresentacao
 {
