@@ -7,10 +7,10 @@
     <link rel="stylesheet" href="juridico.css">
 </head>
 <body>
-    
+
     <div class="Nav-bar">
         <img src="imgHtml/Gemini_Generated_Image_5kpxl15kpxl15kpx-removebg-preview.png" alt="">
-        <a href="#">INICIO</a>
+        <a href="index.html">INICIO</a>
         <a href="solicitar_projeto.html">Orçamento</a>
         <a href="#">FINANCEIRO</a>
         <a href="juridico.php">JURIDICO</a>
