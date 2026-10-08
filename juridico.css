@@ -2,8 +2,8 @@
    1. VARIÁVEIS DE DESIGN (THEME CONFIG)
    ========================================================================== */
 :root {
-    --primary-color: #2563eb;
-    --primary-hover: #1d4ed8;
+    --primary-color: rgb(25, 37, 41);
+    --primary-hover: rgb(25, 37, 41);
     --secondary-color: rgb(25, 37, 41);
     --background-color: #f8fafc;
     --card-background: #ffffff;
