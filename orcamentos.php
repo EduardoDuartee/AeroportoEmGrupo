@@ -5,7 +5,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Solicitaçao De Projeto</title>
-    <link rel="stylesheet" href="projetos.css">
+    <link rel="stylesheet" href="orcamento.css">
 </head>
 
 <header>

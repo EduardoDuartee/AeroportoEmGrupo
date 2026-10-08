@@ -1,64 +1,30 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="pt-br">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Trabalho em Grupo</title>
-    <link rel="stylesheet" href="style.css">
-    <link rel="stylesheet" href="pedido.html">
+    <link rel="stylesheet" href="orcamento.css">
+    <title>Projetos</title>
 </head>
 <body>
 
-    <div class="Nav-bar">
-        <img src="imgHtml/Gemini_Generated_Image_5kpxl15kpxl15kpx-removebg-preview.png" alt="">
-        <a href="#">INICIO</a>
-        <a href="solicitar_projeto.html">Orçamento</a>
-        <a href="#">FINANCEIRO</a>
-        <a href="juridico.php">JURIDICO</a>
-        <a href="#">PROJETOS</a>
-        <a href="#">DESENVOLVIMENTO</a>
-    </div><!--Nav-bar-->
-   
-    <div class="apresentacao">
-        <img src="imgHtml/Gemini_Generated_Image_22akzh22akzh22ak__1_-removebg-preview.png" alt="">
-        <div class="mais">
-        <h1>5 DEVS E UM SONHO</h1>
-        <p>Desenvolvemos softwares sob medida para simplificar processos,<br>
-            escalar operações e criar produtos digitais prontos para o futuro.</p>
-            
-            <button>Saiba Mais</button>
-        </div><!--mais-->
-    </div><!--apresentaçao-->
+        <div class="Nav-bar">
+            <img src="imgHtml/Gemini_Generated_Image_5kpxl15kpxl15kpx-removebg-preview.png" alt="">
+            <a href="index.php">INICIO</a>
+            <a href="orcamentos.php">ORÇAMENTOS</a>
+            <a href="#">FINANCEIRO</a>
+            <a href="juridico.php">JURIDICO</a>
+            <a href="projetos.php">PROJETOS</a>
+            <a href="#">DESENVOLVIMENTO</a>
+        </div><!--Nav-bar-->
 
-    <!---->
-<section id="sobre" class="sobre">
-            <div class="titulo-secao">
-                <p>Conheça Um Pouco</p>
-                <h2>Sobre mim</h2>
-            </div>
-            <div class="sobre-conteudo">
-                <div class="sobre-texto">
-                    <p>
-                        24 anos, desenhista Mecanico, Desenhista á mão livre.
-                    </p>
-                    <p>
-                        Obejetivo principal usar IA para viabilizar sistemas, segurança e desenvolvimentos Webs.
-                    </p>
-                </div>
-                <div class="habilidades">
-                    <div class="habilidade">
-                        <h3>HTML</h3>
-                        <p>Estruturaçao de paginas web.</p>
-                    </div>
-                    <div class="habilidade">
-                        <h3>CSS</h3>
-                        <p>Estilizaçao e criaçao de interface.</p>
-                    </div>
-                </div>
-            </div>
-          </section>
+        <div class="propaganda">
+            <h1>Conheça nossos Projetos</h1>
+            <h2>Seu projeto pode fazer parte da nossa Histora</h2>
+        </div>
 
-          <section id="projetos" class="projetos-secao">
+
+     <section id="projetos" class="projetos-secao">
             <div class="titulo-secao">
                 <p>Alguns trabalhos</p>
                 <h2>Meus Projetos</h2>
@@ -68,9 +34,9 @@
                     <div class="numero-projeto">
                         01
                     </div>
-                    <h3>Persistencia de Dados</h3>
+                    <h3>Faça parte Da Nossa Historia</h3>
                     <p>
-                       Aula de persistencia de dados
+                       Seu projeto exibido aqui!
                     </p>
                     <div class="tecnologias">
                         <span>HTML</span>
@@ -84,9 +50,9 @@
                     <div class="numero-projeto">
                         02
                     </div>
-                    <h3>Atividade</h3>
+                    <h3>Faça parte Da Nossa Historia</h3>
                     <p>
-                       Atividade de css
+                       Seu projeto exibido aqui!
                     </p>
                     <div class="tecnologias">
                         <span>HTML</span>
@@ -100,9 +66,9 @@
                     <div class="numero-projeto">
                         03
                     </div>
-                    <h3>verificador de Idade</h3>
+                    <h3>Faça parte Da Nossa Historia</h3>
                     <p>
-                        Verificação de idade
+                       Seu projeto exibido aqui!
                     </p>
                     <div class="tecnologias">
                         <span>HTML</span>
