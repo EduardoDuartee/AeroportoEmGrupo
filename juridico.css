@@ -2,16 +2,16 @@
    1. VARIÁVEIS DE DESIGN (THEME CONFIG)
    ========================================================================== */
 :root {
-    --primary-color: #2563eb;
-    --primary-hover: #1d4ed8;
-    --secondary-color: #0f172a;
+    --primary-color: rgb(25, 37, 41);
+    --primary-hover: rgb(25, 37, 41);
+    --secondary-color: rgb(25, 37, 41);
     --background-color: #f8fafc;
     --card-background: #ffffff;
     --text-color: #334155;
-    --text-muted: #64748b;
+    --text-muted: #00aeef;
     --border-color: #e2e8f0;
     --accent-color: #e0e7ff;
-    --accent-text: #3730a3;
+    --accent-text: rgb(25, 37, 41);
     
     --radius-sm: 6px;
     --radius-md: 12px;
@@ -97,7 +97,7 @@ body {
 
 .legal-header .badge {
     display: inline-block;
-    background-color: rgba(255, 255, 255, 0.1);
+    background-color: rgb(25, 37, 41);
     color: #93c5fd;
     font-size: 0.85rem;
     font-weight: 600;
@@ -270,7 +270,7 @@ body {
     text-align: center;
     padding: 2rem 0;
     font-size: 0.875rem;
-    border-top: 1px solid rgba(255, 255, 255, 0.1);
+    border-top: 1px solid rgb(25, 37, 41);
 }
 
 /* ==========================================================================

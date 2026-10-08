@@ -48,15 +48,16 @@
                     <p class="updated-date">Última atualização: Setembro de 2026</p>
 
                     <h3>1.1. Escopo dos Serviços</h3>
-                    <p>Nossa empresa é especializada no desenvolvimento de software, aplicações web, aplicativos móveis e soluções de tecnologia sob medida. Todos os serviços prestados seguem a Proposta Comercial aprovada e a Ordem de Serviço vinculada ao contrato inicial.</p>
+                    <p>Nossa empresa é especializada no desenvolvimento de software, aplicações web, aplicativos móveis e soluções de tecnologia sob medida.</p>
 
                     <h3>1.2. Metodologia de Trabalho e Entregas</h3>
-                    <p>Adotamos metodologias ágeis (Sprint/Scrum). O cliente possui o direito de acompanhar as entregas parciais nas datas estipuladas no cronograma inicial. Alterações no escopo original exigirão um aditivo contratual e reavaliação de prazos e valores.</p>
+                    <p>Todos os serviços prestados seguem rigorosamente a Proposta Comercial aprovada e a Ordem de Serviço (OS) vinculada ao contrato inicial.</p>
 
                     <h3>1.3. Responsabilidades do Cliente</h3>
                     <ul>
                         <li>Fornecer as informações técnicas, conteúdos e acessos necessários em tempo hábil para o avanço das etapas.</li>
                         <li>Realizar os testes e aprovações das entregas dentro do prazo acordado para evitar atrasos na homologação final.</li>
+                        <li>Funcionalidades ou requisitos não previstos expressamente no escopo inicial não estão inclusos na execução padrão e dependerão de orçamento específico.</li>
                     </ul>
                 </section>
 
@@ -66,7 +67,7 @@
                     <p class="updated-date">Em conformidade com a Lei Geral de Proteção de Dados (Lei nº 13.709/2018)</p>
 
                     <h3>2.1. Tratamento de Dados do Cliente</h3>
-                    <p>Coletamos e armazenamos apenas os dados essenciais para o cumprimento do contrato, emissão de notas fiscais e comunicação direta sobre o desenvolvimento dos projetos.</p>
+                    <p>Coletamos e armazenamos exclusivamente os dados pessoais e corporativos estritamente essenciais para a execução do contrato, emissão de notas fiscais, cumprimento de obrigações legais e comunicação direta sobre o progresso das entregas.</p>
 
                     <h3>2.2. Confidencialidade e NDA (Non-Disclosure Agreement)</h3>
                     <p>Garantimos sigilo absoluto sobre ideias, regras de negócio, dados de banco de dados e arquivos aos quais tivermos acesso durante o projeto. Nossos desenvolvedores e parceiros assinam acordos estritos de confidencialidade.</p>
