@@ -1,3 +1,13 @@
+<?php
+if($_SEVER["REQUEST_METHOD"] == "POST") {
+
+
+
+}
+
+
+?>
+
 <!DOCTYPE html>
 <html lang="en">
 
@@ -32,31 +42,31 @@
                 <h4>(*)obrigatorio</h4>
             </div>
             <div class="form">
-                <form class="content-form">
+                <form method="POST" class="content-form">
                     <div class="campos">
                         <div class="campo">
                             <label for="empresa">Empresa*</label>
-                           <input type="text" class="inputs">
+                           <input type="text" class="inputs" name="empresa" required>
 
 <label for="responsavel">Responsavel*</label>
 
-<input type="text" class="inputs"> 
+<input type="text" class="inputs" name="responsavel" required> 
                         </div>
                         <div class="campo">
                             <label for="telefone">Numero de Telefone*</label>
-                            <input type="tel" class="inputs">
+                            <input type="tel" class="inputs" name="telefone" required>
                             <label for="email">Email*</label>
-                            <input type="email" class="inputs">
+                            <input type="email" class="inputs" name="email" required>
 
-<label name="prazo">Prazo/Deadline</label>
+<label for="prazo">Prazo/Deadline</label>
 
-<input type="text" class="inputs">
+<input type="text" class="inputs" name="prazo" required>
                         </div>
                     </div>
 
 
                     <label for="projeto">Descriçao do Projeto</label>
-                    <textarea name="Projeto" id="Projeto" class="pedido"></textarea>
+                    <textarea name="Projeto" id="Projeto" class="pedido" required></textarea>
                     <button type="submit" class="form-button">ENVIAR</button>
                 </form>
             </div>
