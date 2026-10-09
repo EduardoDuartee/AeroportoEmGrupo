@@ -8,6 +8,8 @@
     <link rel="stylesheet" href="orcamento.css">
 </head>
 
+<body>
+
 <header>
     <div class="Nav-bar">
         <img src="imgHtml/Gemini_Generated_Image_5kpxl15kpxl15kpx-removebg-preview.png" alt="">
@@ -22,7 +24,6 @@
 
 <!--solicitacion de projecto-->
 
-<body>
     <main>
         <section>
             <div class="text">
@@ -37,11 +38,9 @@
                             <label for="empresa">Empresa*</label>
                            <input type="text" class="inputs">
 
-<label name="responsavel">Responsavel*</label>
+<label for="responsavel">Responsavel*</label>
 
-<input type="text" class="inputs">
-                            <label for="responsavel">Responsavel*</label>
-                            <input type="text" class="inputs">
+<input type="text" class="inputs"> 
                         </div>
                         <div class="campo">
                             <label for="telefone">Numero de Telefone*</label>
@@ -51,7 +50,7 @@
 
 <label name="prazo">Prazo/Deadline</label>
 
-<input type="text" class="inputs"
+<input type="text" class="inputs">
                         </div>
                     </div>
 
