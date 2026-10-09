@@ -12,10 +12,10 @@
     <div class="Nav-bar">
         <img src="imgHtml/Gemini_Generated_Image_5kpxl15kpxl15kpx-removebg-preview.png" alt="">
         <a href="#">INICIO</a>
-        <a href="orcamentos.php">Orçamento</a>
+        <a href="php/orcamentos.php">Orçamento</a>
         <a href="#">FINANCEIRO</a>
-        <a href="juridico.php">JURIDICO</a>
-        <a href="projetos.php">PROJETOS</a>
+        <a href="php/juridico.php">JURIDICO</a>
+        <a href="php/projetos.php">PROJETOS</a>
         <a href="#">DESENVOLVIMENTO</a>
     </div><!--Nav-bar-->
    
