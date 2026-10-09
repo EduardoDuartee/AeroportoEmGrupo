@@ -35,7 +35,11 @@
                     <div class="campos">
                         <div class="campo">
                             <label for="empresa">Empresa*</label>
-                            <input type="text" class="inputs">
+                           <input type="text" class="inputs">
+
+<label name="responsavel">Responsavel*</label>
+
+<input type="text" class="inputs">
                             <label for="responsavel">Responsavel*</label>
                             <input type="text" class="inputs">
                         </div>
@@ -44,6 +48,10 @@
                             <input type="tel" class="inputs">
                             <label for="email">Email*</label>
                             <input type="email" class="inputs">
+
+<label name="prazo">Prazo/Deadline</label>
+
+<input type="text" class="inputs"
                         </div>
                     </div>
 
