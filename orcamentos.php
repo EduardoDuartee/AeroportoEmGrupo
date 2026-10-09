@@ -6,7 +6,7 @@ $empresa = $_POST["empresa"];
 $projeto = $_POST["projeto"];
 $telefone = $_POST["telefone"];
 $email = $_POST["email"];
-&prazo = $_POST["prazo"];
+$prazo = $_POST["prazo"];
 
 
 }
