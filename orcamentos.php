@@ -1,6 +1,12 @@
 <?php
-if($_SEVER["REQUEST_METHOD"] == "POST") {
+if($_SERVER["REQUEST_METHOD"] == "POST") {
 
+$responsavel = $_POST["responsavel"];
+$empresa = $_POST["empresa"];
+$projeto = $_POST["projeto"];
+$telefone = $_POST["telefone"];
+$email = $_POST["email"];
+&prazo = $_POST["prazo"];
 
 
 }
@@ -42,7 +48,7 @@ if($_SEVER["REQUEST_METHOD"] == "POST") {
                 <h4>(*)obrigatorio</h4>
             </div>
             <div class="form">
-                <form method="POST" class="content-form">
+                <form action="" method="POST" class="content-form">
                     <div class="campos">
                         <div class="campo">
                             <label for="empresa">Empresa*</label>
@@ -66,7 +72,7 @@ if($_SEVER["REQUEST_METHOD"] == "POST") {
 
 
                     <label for="projeto">Descriçao do Projeto</label>
-                    <textarea name="Projeto" id="Projeto" class="pedido" required></textarea>
+                    <textarea name="projeto" id="Projeto" class="pedido" required></textarea>
                     <button type="submit" class="form-button">ENVIAR</button>
                 </form>
             </div>
