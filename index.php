@@ -33,8 +33,8 @@
     <!---->
 <section id="sobre" class="sobre">
             <div class="titulo-secao">
-                <p>Conheça Um Pouco</p>
-                <h2>Sobre mim</h2>
+                <p>Conheça Um Pouco dos nossos projetos</p>
+                <h2>Sobre Nos</h2>
             </div>
             <div class="sobre-conteudo">
                 <div class="sobre-texto">
