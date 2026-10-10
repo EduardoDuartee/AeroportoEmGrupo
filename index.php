@@ -14,7 +14,7 @@
         <a href="php/orcamentos.php">ORÇAMENTO</a>
         <a href="#">FINANCEIRO</a>
         <a href="php/juridico.php">JURIDICO</a>
-        <a href="php/projetos.php">PROJETOS</a>php/projetos.php
+        <a href="php/projetos.php">PROJETOS</a>
         <a href="#">DESENVOLVIMENTO</a>
     </div><!--Nav-bar-->
    
