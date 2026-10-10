@@ -4,7 +4,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Informações Jurídicas & Termos de Serviço | Nossa Empresa de Software</title>
-    <link rel="stylesheet" href="juridico.css">
+    <link rel="stylesheet" href="../css/juridico.css">
 </head>
 <body>
 
