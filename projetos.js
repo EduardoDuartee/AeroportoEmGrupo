@@ -82,3 +82,16 @@ function touchEnd(){
     setPositionByIndex();
     startAutoPlay();
 }
+
+function getPositionX(event){
+    return event.type.includes('mouse') ? event.clientX : event.touches[0].clientX;
+}
+
+function animation(){
+    setSliderPosition();
+    if(isDragging) requestAnimationFrame(animation);
+}
+
+function setSliderPosition(){
+    track.style.transform = `translateX(${currentTranlate}`)
+}
