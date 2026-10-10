@@ -130,6 +130,6 @@
             </div>
            
     </section>    
-     <script src="projetos.js"></script> 
+     <script src="../projetos.js"></script> 
 </body>
 </html>
